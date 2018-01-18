@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Mi proyecto Bootstrap</title>
+</head>
+<body>
+  <!-- BARRA DE NAVEGACION -->
+  <header class="mb-5 pb-5">
+    <div class="container relative">
+      <nav class="fixed-top navbar navbar-expand-lg color_bar navbar-light">
+        <div>
+          <a href="index.html">
+            <img class="img-fluid" src="./images/logo.gif" alt="Latam Desarrollo Web"  />
+          </a>
+        </div>
+        <a class="page-scroll pt-2" href="#">
+          <a  href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">  </ul> <!--Esto es para que se pueda justificar a la derecha los botones -->
+            <div class="btn-group btn-group-justified">
+              <a href="home.html" class="btn btn-primary">Home</a>
+              <a href="blog.html" class="btn btn-primary">Blog</a>
+              <a href="nosotros.html" class="btn btn-primary">Nosotros</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<!-- INICO BLOG -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="my-4">Blog</h1>
+
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/noticia1.png" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoyo para Padres 2016</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by
+              <a href="home.html">Home</a>
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/noticia2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Ética en los tiempos del Autismo (Día Internacional del Síndrome de Asperger) 2016</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by
+              <a href="home.html">Home</a>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/noticia3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Capacitación de Voluntarias Taller 2015</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by
+              <a href="home.html">Home</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-4">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Web Design</a>
+                    </li>
+                    <li>
+                      <a href="#">HTML</a>
+                    </li>
+                    <li>
+                      <a href="#">Freebies</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">JavaScript</a>
+                    </li>
+                    <li>
+                      <a href="#">CSS</a>
+                    </li>
+                    <li>
+                      <a href="#">Tutorials</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- FOOTER -->
+    <footer>
+      <section class="pt-5">
+        <div class="row">
+          <div class="offset-md-2 col-md-6">
+            <div class="container">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Nombre</label>
+                  <input type="Nombre" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleTextarea">Example textarea</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </div>
+
+                <fieldset class="form-group">
+                  <legend>Sexo</legend>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Masculino
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Femenino
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                      Otros
+                    </label>
+                  </div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <!-- IFRAME       -->
+          <div class="col-md-4">
+            <address>
+              <h3> Contacto </h3>
+              FullSource s.p.a.   <br>
+              Los Robles 8584 La Florida  <br>
+              Santiago, Chile <br>
+              P: (123) 456-7890 <br>
+              Heraldo Andres Huerta Aravena  <br>
+              <a href="https://github.com/heraldohuerta">Git Heraldo Huerta</a> <br>
+              <a  href="https://www.linkedin.com/in/heraldo-andr%C3%A9s-huerta-aravena-95154333/">Linkedin Heraldo</a> <br>
+              <a href="mailto:heraldo.huerta@gmail.com?subject=feedback">heraldo.huerta@gmail.com</a> <br>
+            </address>
+
+          </div>
+        </div>
+      </section>
+      <p class="center">@ Todos los derechos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
