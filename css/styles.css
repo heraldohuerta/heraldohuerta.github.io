@@ -1,25 +1,21 @@
-@media (min-width: 480px) {
-  .tam_titulo
-  {      font-size: 2em;
-
-  }
-}
-
-@media (min-width: 780px) {
-  .tam_titulo
-  {
-    font-size: 2em;
-  }
-}
-
-@media (min-width: 1024px) {
-  .tam_titulo
-  {
-    font-size: 3em;
-  }
+body {
+  min-height: 50rem;
+  padding-top: 9rem;
 }
 
 
+div address{
+  text-align: right;
+}
+footer.masthead {
+  position: relative;
+   width: 100%;
+   padding-top: 100px;
+   padding-bottom: 50px; */
+  color:rgb(6, 33, 88);
+  background: url("../images/fondo.jpg"), #7b4397;
+  font-family: 'Anton', sans-serif;
+}
 
 
 .img_tam_principal{
@@ -38,11 +34,11 @@
 
 
 .caja2{
-  /* margin-bottom: 5vh; */
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background-color: #f8f9fa;
   border: 2px solid #e9ecef!important;
   border-color: #fff!important;
-  /* padding: 5vw; */
 }
 
 
@@ -59,8 +55,134 @@
 footer
 {
   /* position:fixed; */
+  text-align: left;
   bottom: 0;
   left: 0;
-  background-color:rgba(255, 237, 0, 0.71);
+  background-color: #f0f6fb;
   width: 100%;
+  color:white;
+  font-weight: bold;
+
+}
+
+
+.fa {
+  box-sizing:content-box;
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
 }

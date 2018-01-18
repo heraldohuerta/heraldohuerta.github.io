@@ -4,43 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Mi proyecto Bootstrap</title>
+  <title>Evaluacion 01 Bootstrap Desafio Latam</title>
 </head>
 <body>
 
   <!-- BARRA DE NAVEGACION -->
-<header class="mb-5 pb-5">
-    <div class="container relative">
-    <nav class="fixed-top navbar navbar-expand-lg color_bar navbar-light">
-      <div>
-        <a href="index.html">
-          <img class="img-fluid" src="./images/logo.gif" alt="Latam Desarrollo Web"  />
-        </a>
-      </div>
-      <a class="page-scroll pt-2" href="#">
-        <a  href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">  </ul> <!--Esto es para que se pueda justificar a la derecha los botones -->
-          <div class="btn-group btn-group-justified">
-            <a href="#" class="btn btn-primary">Home</a>
-            <a href="blog.html" class="btn btn-primary">Blog</a>
-            <a href="nosotros.html" class="btn btn-primary">Nosotros</a>
-          </div>
+   <header>
+    <div class="containerrelative">
+      <nav class="fixed-top navbar navbar-expand-lg color_bar navbar-light">
+        <div>
+          <a href="index.html">
+            <img class="img-fluid" src="./images/logo.gif" alt="Latam Desarrollo Web"  />
+          </a>
         </div>
-      </nav>
-    </div>
-</header>
+        <a class="page-scroll pt-2" href="#">
+          <a  href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">  </ul>
+            <div class="btn-group btn-group-justified">
+              <a href="index.html" class="btn btn-primary">Home</a>
+              <a href="blog.html" class="btn btn-primary">Blog</a>
+              <a href="nosotros.html" class="btn btn-primary">Nosotros</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+  </header>
 
 
 
 <!-- CARRUSEL -->
 <!-- LO CREO COMO RELATIVE PARA PODER COLOCAR LOS BOTONES Y TEXTO ENCIMA -->
-<section>
-<div class="relative">
+<section role="main" class="container-fluid">
+<div>
   <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -84,9 +85,9 @@
 
 
 <!-- PARRAFOS DE INFORMACION-->
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center caja2">
+<div class="container-fluid mt-5">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-3 col-lg-3 caja2">
       <h3>Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoyo para Padres 2016</h3>
       <div>
         <img class="img-thumbnail" src="./images/noticia1.png" alt="">
@@ -96,7 +97,7 @@
       <a href="#" class="btn btn-lg btn-outline-primary">Ver Mas...</a>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center caja2">
+    <div class="col-sm-12 col-md-3 col-lg-3 caja2">
       <h3>Ética en los tiempos del Autismo (Día Internacional del Síndrome de Asperger) 2016</h3>
       <div>
         <img class="img-thumbnail" src="./images/noticia2.jpg" alt="">
@@ -106,9 +107,8 @@
       <a href="#" class="btn btn-lg btn-outline-primary">Ver Mas...</a>
       </div>
     </div>
-
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center caja2">
-      <h3>Capacitación de Voluntarias Taller 2015</h3><br><br><br>
+    <div class="col-sm-12 col-md-3 col-lg-3 caja2">
+      <h3>Capacitación de Voluntarias Taller 2015</h3>
       <div>
         <img class="img-thumbnail" src="./images/noticia3.jpg" alt="">
       </div>
@@ -122,10 +122,12 @@ Un agradecimiento especial al Departamento de Educación Diferencial de la Unive
   </div>
 </div>
 
-<footer>
+
+
   <!-- FORMULARIO-->
-<section class="pt-5">
-  <div class="row">
+<footer class="masthead">
+<section>
+  <div class="row m-0 pr-3 pl-3">
     <div class="offset-md-2 col-md-6">
       <div class="container">
         <form>
@@ -165,25 +167,30 @@ Un agradecimiento especial al Departamento de Educación Diferencial de la Unive
                 Otros
               </label>
             </div>
+
+
+
           </fieldset>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         </div>
     </div>
-<!-- IFRAME       -->
-    <div class="col-md-4">
+
+    <div>
       <address>
-        <h3> Contacto </h3>
+        <h1>Contacto</h1> <br>
         FullSource s.p.a.   <br>
         Los Robles 8584 La Florida  <br>
         Santiago, Chile <br>
         P: (123) 456-7890 <br>
         Heraldo Andres Huerta Aravena  <br>
-        <a href="https://github.com/heraldohuerta">Git Heraldo Huerta</a> <br>
-        <a  href="https://www.linkedin.com/in/heraldo-andr%C3%A9s-huerta-aravena-95154333/">Linkedin Heraldo</a> <br>
+        <a   href="https://github.com/heraldohuerta">Git Heraldo Huerta</a> <br>
         <a href="mailto:heraldo.huerta@gmail.com?subject=feedback">heraldo.huerta@gmail.com</a> <br>
+        <a  class="fa fa-linkedin" href="https://www.linkedin.com/in/heraldo-andr%C3%A9s-huerta-aravena-95154333/"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
       </address>
-
     </div>
   </div>
 </section>
